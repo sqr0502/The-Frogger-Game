@@ -1,3 +1,19 @@
-body {
-    text-align: center;
+#game_title {
+	top: 21%;
+	left:42%;
+	right: 5%;
+	z-index: 5;
+	color: white;
+	position: fixed;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+canvas {
+	position: absolute;
+	z-index: 1;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 }
